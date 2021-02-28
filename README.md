@@ -7,3 +7,14 @@ Calculator for buy-to-let investors helping them get an idea about the potential
 The tool uses the following technologies
  * Python3
  * QT (PySide2)
+
+# How to start the tool?
+1) Make sure you have the necessary software to run the tool
+2) Run python investor-ui.py
+
+# Future improvements
+* Add test coverage
+* Expand the tax calculations to cover more cases
+* Add mortgage years as it assumes default 30 now
+* Minor updates on the UI
+* Potentially integrated with rightmove/zoopla to be able to run calculations for specific property and be able to save some data for them
