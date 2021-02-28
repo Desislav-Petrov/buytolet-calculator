@@ -18,3 +18,6 @@ The tool uses the following technologies
 * Add mortgage years as it assumes default 30 now
 * Minor updates on the UI
 * Potentially integrated with rightmove/zoopla to be able to run calculations for specific property and be able to save some data for them
+
+# How to make contributions?
+If you do come up with an idea about the tool, feel free to open a PR.
