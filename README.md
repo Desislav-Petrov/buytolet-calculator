@@ -18,6 +18,7 @@ The tool uses the following technologies
 * Expand the tax calculations to cover more cases
 * Minor updates on the UI
 * Potentially integrated with rightmove/zoopla to be able to run calculations for specific property and be able to save some data for them
+* Package in a better python-friendly structure
 
 # How to make contributions?
 If you do come up with an idea about the tool, feel free to open a PR.
