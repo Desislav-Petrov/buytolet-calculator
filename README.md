@@ -15,7 +15,6 @@ The tool uses the following technologies
 # Future improvements
 * Add test coverage
 * Expand the tax calculations to cover more cases
-* Add mortgage years as it assumes default 30 now
 * Minor updates on the UI
 * Potentially integrated with rightmove/zoopla to be able to run calculations for specific property and be able to save some data for them
 

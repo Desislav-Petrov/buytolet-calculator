@@ -356,12 +356,12 @@
      <rect>
       <x>20</x>
       <y>30</y>
-      <width>921</width>
+      <width>911</width>
       <height>41</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
-     <item alignment="Qt::AlignLeft">
+     <item>
       <widget class="QLabel" name="label_7">
        <property name="text">
         <string>Property Price</string>
@@ -398,8 +398,18 @@
        </property>
       </widget>
      </item>
-     <item alignment="Qt::AlignLeft">
+     <item>
       <widget class="QLineEdit" name="mortgage_ir"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>Mortage Term</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="mortgage_term"/>
      </item>
     </layout>
    </widget>

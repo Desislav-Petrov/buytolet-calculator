@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'untitled.ui'
+## Form generated from reading UI file 'property-investor.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -232,14 +232,14 @@ class Ui_MainWindow(object):
 
         self.horizontalLayoutWidget_7 = QWidget(self.centralwidget)
         self.horizontalLayoutWidget_7.setObjectName(u"horizontalLayoutWidget_7")
-        self.horizontalLayoutWidget_7.setGeometry(QRect(20, 30, 921, 41))
+        self.horizontalLayoutWidget_7.setGeometry(QRect(20, 30, 911, 41))
         self.horizontalLayout_5 = QHBoxLayout(self.horizontalLayoutWidget_7)
         self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.label_7 = QLabel(self.horizontalLayoutWidget_7)
         self.label_7.setObjectName(u"label_7")
 
-        self.horizontalLayout_5.addWidget(self.label_7, 0, Qt.AlignLeft)
+        self.horizontalLayout_5.addWidget(self.label_7)
 
         self.property_price = QLineEdit(self.horizontalLayoutWidget_7)
         self.property_price.setObjectName(u"property_price")
@@ -274,7 +274,17 @@ class Ui_MainWindow(object):
         self.mortgage_ir = QLineEdit(self.horizontalLayoutWidget_7)
         self.mortgage_ir.setObjectName(u"mortgage_ir")
 
-        self.horizontalLayout_5.addWidget(self.mortgage_ir, 0, Qt.AlignLeft)
+        self.horizontalLayout_5.addWidget(self.mortgage_ir)
+
+        self.label_17 = QLabel(self.horizontalLayoutWidget_7)
+        self.label_17.setObjectName(u"label_17")
+
+        self.horizontalLayout_5.addWidget(self.label_17)
+
+        self.mortgage_term = QLineEdit(self.horizontalLayoutWidget_7)
+        self.mortgage_term.setObjectName(u"mortgage_term")
+
+        self.horizontalLayout_5.addWidget(self.mortgage_term)
 
         self.horizontalLayoutWidget_8 = QWidget(self.centralwidget)
         self.horizontalLayoutWidget_8.setObjectName(u"horizontalLayoutWidget_8")
@@ -343,6 +353,7 @@ class Ui_MainWindow(object):
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"Rent p/m", None))
         self.label_9.setText(QCoreApplication.translate("MainWindow", u"Loan to Value", None))
         self.label_15.setText(QCoreApplication.translate("MainWindow", u"Mortage IR", None))
+        self.label_17.setText(QCoreApplication.translate("MainWindow", u"Mortage Term", None))
         self.label_16.setText(QCoreApplication.translate("MainWindow", u"Yield %", None))
         self.menuMenu.setTitle(QCoreApplication.translate("MainWindow", u"Menu", None))
     # retranslateUi

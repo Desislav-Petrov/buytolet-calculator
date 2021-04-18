@@ -15,7 +15,7 @@ def per_month_to_period(per_month, period):
     print("Unknown period:" + str(period));
 
 def calc_management_fee(rent_pcm, period):
-  fee_pcm = rent_pcm * ((MANAGEMENT_FEE_PERCENT)/100.0)
+  fee_pcm = rent_pcm * (MANAGEMENT_FEE_PERCENT / 100.0)
   return per_month_to_period(fee_pcm, period)
 
 def calc_mortgage(property_price, ltv, mortgage_ir, mortgage_term_years, period):
@@ -40,3 +40,9 @@ def calc_profit_net(property_price, ltv, mortgage_ir, mortgage_term_years, rent_
         taxable_profit = pre_tax_profit - TAX_FREE_AMOUNT
         net_profit = taxable_profit * (100 - TAX_RATE_PERCENT)/100.0 + TAX_FREE_AMOUNT
         return round(per_month_to_period(net_profit/12.0, period), 2)
+
+def calc_yield(rent_pcm, property_price, period):
+    monthly_yield  = float(rent_pcm) / property_price
+    print(monthly_yield)
+    return round(per_month_to_period(monthly_yield, period)*100, 2)
+
