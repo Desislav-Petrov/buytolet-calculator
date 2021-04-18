@@ -43,6 +43,5 @@ def calc_profit_net(property_price, ltv, mortgage_ir, mortgage_term_years, rent_
 
 def calc_yield(rent_pcm, property_price, period):
     monthly_yield  = float(rent_pcm) / property_price
-    print(monthly_yield)
     return round(per_month_to_period(monthly_yield, period)*100, 2)
 
