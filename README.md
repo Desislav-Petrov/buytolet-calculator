@@ -11,6 +11,7 @@ The tool uses the following technologies
 # How to start the tool?
 1) Make sure you have the necessary software to run the tool
 2) Run python investor-ui.py
+3) If you'd like to compile the UI yourself: uic-qt5 property-investor.ui -o ui3.py -g python
 
 # Future improvements
 * Add test coverage
